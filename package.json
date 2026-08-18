@@ -1,0 +1,11 @@
+{
+  "name": "cursor-control",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Drive Cursor desktop agents from ZCode over CDP and SQLite without touching the foreground UI.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}
