@@ -1,0 +1,37 @@
+{
+  "$schema": "https://zcode.dev/marketplace.schema.json",
+  "name": "cursor-control",
+  "description": "Drive Cursor desktop agents from ZCode over CDP and SQLite without touching the foreground UI.",
+  "owner": {
+    "name": "Zheng-QianChen"
+  },
+  "plugins": [
+    {
+      "name": "cursor-control",
+      "description": "Drive Cursor desktop agents from ZCode over CDP and SQLite: background progress reads, auto-approval of tool calls via Cursor hooks, and message injection into tracked sessions without touching the foreground UI.",
+      "description_i18n": {
+        "en": "Drive Cursor desktop agents from ZCode over CDP and SQLite: background progress reads, auto-approval of tool calls via Cursor hooks, and message injection into tracked sessions without touching the foreground UI.",
+        "zh-CN": "通过 CDP 与 SQLite 从 ZCode 无感驱动 Cursor 桌面端 agent：后台读取进度、经 Cursor hooks 自动批放工具调用、向被跟踪会话注入消息（不打扰前台界面）。"
+      },
+      "version": "0.1.0",
+      "author": {
+        "name": "cursor-control"
+      },
+      "category": "developer-tools",
+      "keywords": [
+        "cursor",
+        "cdp",
+        "agent",
+        "automation",
+        "hooks",
+        "monitoring"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Zheng-QianChen/cursor-control",
+        "path": ".",
+        "ref": "main"
+      }
+    }
+  ]
+}
